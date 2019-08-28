@@ -18,7 +18,7 @@ end
  
  def self.print_all 
    
-   save.each do |dog| 
+   Dog.all.each do |dog| 
    puts dog.name
  end
  end
