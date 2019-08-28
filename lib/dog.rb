@@ -18,6 +18,7 @@ end
  
  def self.print 
    @@all.each {|dog| puts dog.name}
+   binding.pry
  end
  
  def save 
