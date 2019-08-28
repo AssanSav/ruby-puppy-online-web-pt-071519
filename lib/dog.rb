@@ -22,6 +22,5 @@ end
  
  def save 
    @@all << self
-   binding.pry
  end 
 end
