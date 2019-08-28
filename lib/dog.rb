@@ -19,7 +19,7 @@ end
  def self.print_all 
    binding.pry
    @@all.each do |dog| 
-   puts dog.name}
+   puts dog.name
  end
  end
  
